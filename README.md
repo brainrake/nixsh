@@ -1,4 +1,4 @@
-`bash` sucks. So use your favorite programming language as shell. [Racket](https://docs.racket-lang.org/rash/), [Python](https://xon.sh/), [Haskell](https://las.rs/blog/haskell-as-shell.html), what's next?
+Tired of `bash` being a bad language? Use your favorite programming language as shell.
 
 ```
 nix repl .
