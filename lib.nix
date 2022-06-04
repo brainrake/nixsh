@@ -1,8 +1,8 @@
 { pkgs ? import <nixpkgs> { }, ... }:
 {
   # nix repl will not run shellHook on mkShell
-  run = command: pkgs.stdenv.mkDerivation {
-    name = "run";
+  sh = command: pkgs.stdenv.mkDerivation {
+    name = "sh";
 
     # do not require src
     unpackPhase = "true";
