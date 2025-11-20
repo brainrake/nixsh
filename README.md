@@ -8,4 +8,4 @@ Hello, World!
 
 ```
 
-Meaning: run run `bash` from it.
+Meaning: run `bash` from it.
